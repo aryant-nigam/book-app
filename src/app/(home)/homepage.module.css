@@ -1,0 +1,50 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  margin-top: 15px;
+  position: relative;
+}
+
+.banner {
+  display: flex;
+  align-self: center;
+  border-radius: 10px;
+  height: fit-content;
+  object-fit: cover;
+  overflow: hidden;
+  border: 1px solid black;
+  z-index: 2;
+  position: relative;
+  top: 10px;
+  box-shadow: 0px 0px 3px rgb(167, 167, 167);
+}
+
+.caption {
+  z-index: 3;
+  position: absolute;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: max-content;
+  font-family: "Nanum Brush Script", cursive;
+  font-weight: 400;
+  font-size: 4rem;
+  font-style: normal;
+
+  margin: auto;
+}
+
+.books-section {
+  padding-top: 15px;
+  width: 70vw;
+  border-radius: 15px;
+  height: fit-content;
+  border: 2px dashed purple;
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
